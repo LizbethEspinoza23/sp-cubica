@@ -1,0 +1,7 @@
+clc;
+xi=[2 6 7; 4 5 9; 8 1 1]
+yi=[6 6 6; 2 9 1; 8 7 2]
+
+display("SPLINE CUADRATICA: SOLUCION");
+
+px=inter_spline_cubica(xi,yi)
